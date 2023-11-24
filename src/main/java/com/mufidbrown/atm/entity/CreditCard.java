@@ -9,7 +9,7 @@ public class CreditCard {
     private int limit;
 
     // Constuctor
-    CreditCard(String no, String nm, String bk, double bal, int lim) {
+    public CreditCard(String no, String nm, String bk, double bal, int lim) {
         number = no;
         name = nm;
         bank = bk;
