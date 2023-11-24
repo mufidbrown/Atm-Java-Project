@@ -1,6 +1,7 @@
 package com.mufidbrown.atm;
 
-import org.springframework.boot.SpringApplication;
+import com.mufidbrown.atm.operation.AtmOperationImpl;
+import com.mufidbrown.atm.operation.AtmOperationInterf;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Scanner;

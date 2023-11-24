@@ -1,4 +1,4 @@
-package com.mufidbrown.atm;
+package com.mufidbrown.atm.operation;
 
 public interface AtmOperationInterf {
     public void viewBalance();

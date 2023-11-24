@@ -1,4 +1,4 @@
-package com.mufidbrown.atm;
+package com.mufidbrown.atm.entity;
 
 public class ATM {
     private double balance;

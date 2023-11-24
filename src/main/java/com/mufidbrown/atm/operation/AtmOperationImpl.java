@@ -1,9 +1,12 @@
-package com.mufidbrown.atm;
+package com.mufidbrown.atm.operation;
+
+import com.mufidbrown.atm.entity.ATM;
+import com.mufidbrown.atm.operation.AtmOperationInterf;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class AtmOperationImpl implements AtmOperationInterf{
+public class AtmOperationImpl implements AtmOperationInterf {
     ATM atm=new ATM();
     Map<Double,String > ministmt=new HashMap<>();
     @Override
